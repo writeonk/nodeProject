@@ -3,10 +3,3 @@ function sayHello(name){
 }
 
 sayHello('Kunal');
-
-console.log(); //global object
-
-setTimeout(); // delay
-clearTimeout();
-setInterval();
-clearInterval();
