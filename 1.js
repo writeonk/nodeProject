@@ -1,11 +1,9 @@
+const ary = ["A","B","C","D"];
 
-    console.log("Helllo");
-    document.write("Helllo World");
-    console.warn("warning");
-    console.error("error");
-    var n1 =5;
-    var n2=10;
-    console.log(n1 + n2);
-    var a;
-    console.log(a);
-    
+document.write( "current array : " + ary);
+
+let n_ary = ary.splice(2,0,"E","F");
+document.write( "<br>New array : " + ary);
+
+let nary = ary.slice(1);
+document.write("<br>New array after slice :" +nary);
