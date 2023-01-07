@@ -66,6 +66,55 @@ let a = arr.reduce(add)
 console.log(a)
 */
 
+//que2
+/*
+let ary = [1,2,3,4]
+let a = prompt("enter value in array")
+for(;a!=0;)
+{
+    ary.push(a)
+   a= prompt("enter value in array")
+   if(a==0)
+   {
+      break
+   }
+}
+console.log(ary)
+*/
+
+//que3
+/*
+let ary = [10,15,20,25,30]
+ let a = ary.filter((value)=>{
+    return value%10==0
+})
+console.log(a)
+*/
+
+//que4
+/*
+let ary = [1,2,3,4,5]
+let new_ary = ary.map((a)=>{
+    return a*a
+})
+console.log(new_ary)
+*/
+
+//que5
+/*
+let n = prompt("enter number")
+let ary=[n]
+for(let i=0;i<n;i++)
+{
+     ary[i] = prompt("enter value in array") 
+}
+console.log(ary)
+let fact = ary.reduce((x1,x2)=>{
+    return x1*x2
+})
+console.log("factorial is : " +fact)
+*/
+
 
 
 
