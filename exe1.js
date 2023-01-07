@@ -1,5 +1,5 @@
 // exe1 : guess the number
-
+/*
 let a = Math.floor((Math.random() * 100) + 1)
 let chances = 0
 
@@ -22,3 +22,4 @@ for (; ;) {
     }
 }
 console.log("your score is : " + (100 - chances) + " and the number is : " + a)
+*/
