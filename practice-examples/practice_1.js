@@ -4,7 +4,6 @@ console.log(a+b)
 
 console.log(typeof a)
 
-
 const a1 = {
 
     name : 'kunal',
@@ -27,9 +26,6 @@ const dictionary  = {
 }
 
 console.log(dictionary)
-
 console.log(typeof (dictionary))
-
 console.log(dictionary.appricate)
-
 console.log(dictionary['happy'])
