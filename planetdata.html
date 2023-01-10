@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,td,th{
+        border : 2px solid black ;
+        border-collapse: collapse;
+    }
+     tbody{
+        background-color: grey;
+        text-align: center;
+     }
+     thead{
+        background-color: grey;
+     }
+</style>
+<body bgcolor="cyan">
+    <h1>Planets Data</h1>
+    <table style="width : 100%">
+       
+        <caption><h2>Information about planets</h2></caption>
+        <thead>        
+            <tr>
+            <th colspan="2"></th>
+            <th id="name" colspan="3">Name</th>
+            <th id="mass">Mass</th>
+            <th id="dia">Diameter</th>
+            <th id="den">Density</th>
+            <th id="gra">Gravity</th>
+            <th id="temp">Temperature</th>
+            <th id="moon">No of moons</th>
+            <th id="note">Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th id = "tp" rowspan="3" colspan="2">Teresstial Planets</th>
+            <th colspan="3" id="mer" headers="name tp">Mercury</th>
+            <td headers="mass tp mer">0.330</td>
+            <td headers="dia tp mer">4.879</td>
+            <td headers="den tp mer">5427</td>
+            <td headers="gra tp mer">3.7</td>
+            <td headers="temp tp mer">167</td>
+            <td headers="moon tp mer">0</td>
+            <td headers="note tp mer">Closest to sun</td>
+        </tr>
+        <tr>
+            <th colspan="3" id="ven" headers="name tp">Venus</th>
+            <td headers="mass tp ven">4.87</td>
+            <td headers="dia tp ven">12</td>
+            <td headers="den tp ven">5327</td>
+            <td headers="gra tp ven">8.7</td>
+            <td headers="temp tp ven">464</td>
+            <td headers="moon tp ven">0</td>
+            <td headers="note tp ven">&nbsp</td>
+        </tr>
+        <tr>
+            <th colspan="3" id="ear" headers="name tp">Earth</th>
+            <td headers="mass tp ear">5.87</td>
+            <td headers="dia tp ear">12.756</td>
+            <td headers="den tp ear">5527</td>
+            <td headers="gra tp ear">9.7</td>
+            <td headers="temp tp ear">15</td>
+            <td headers="moon tp ear">1</td>
+            <td headers="note tp ear">Our world</td>
+        </tr>
+    
+        <tr>
+            <th id="jp" colspan="1" rowspan="4" headers="tp">Jovian planet</th>
+            <th id="gp" colspan="1" headers=" tp jp" rowspan="2">Gas giants</th>
+            <th id="jup"  header="name jp gp" colspan="3">Jupiter</th>
+            <td headers="mass jp gp jup">6.87</td>
+            <td headers="dia jp gp jup">13.756</td>
+            <td headers="den jp gp jup">6527</td>
+            <td headers="gra jp gp jup">9.9</td>
+            <td headers="temp jp gp jup">-110</td>
+            <td headers="moon jp gp jup">67</td>
+            <td headers="note jp gp jup">Largest Planet</td>
+        </tr>
+        <tr>
+            <th id="sat"  headers="name jp gp" colspan="3">Saturn</th>
+            <td headers="mass jp gp sat">8.87</td>
+            <td headers="dia jp gp sat">10.756</td>
+            <td headers="den jp gp sat">2527</td>
+            <td headers="gra jp gp sat">5.1</td>
+            <td headers="temp jp gp sat">-150</td>
+            <td headers="moon jp gp sat">61</td>
+            <td headers="note jp gp sat">&nbsp</td>
+        </tr> 
+         <tr>
+            <th id="ig" colspan="1" headers=" tp jp" rowspan="2">Ice giants</th>
+            <th id="ura"  header="name jp ig" colspan="3">Uranus</th>
+            <td headers="mass jp ig ura">2.87</td>
+            <td headers="dia jp ig ura">8.756</td>
+            <td headers="den jp ig ura">2452</td>
+            <td headers="gra jp ig ura">4.1</td>
+            <td headers="temp jp ig ura">-100</td>
+            <td headers="moon jp ig ura">51</td>
+            <td headers="note jp ig ura">&nbsp</td>
+        </tr>
+        <tr>
+            <th id="nep"  header="name jp ig" colspan="3">Neptune</th>
+            <td headers="mass jp ig nep">1.87</td>
+            <td headers="dia jp ig nep">6.756</td>
+            <td headers="den jp ig nep">1452</td>
+            <td headers="gra jp ig nep">6.1</td>
+            <td headers="temp jp ig nep">-200</td>
+            <td headers="moon jp ig nep">11</td>
+            <td headers="note jp ig nep">&nbsp</td>
+        </tr>
+        <tr>
+            <th id="df" colspan="2" rowspan="1">Draft planet</th>
+            <th id="plu"  header="name df" colspan="3">pluto</th>
+            <td headers="mass df plu">3.87</td>
+            <td headers="dia df plu">4.756</td>
+            <td headers="den df plu">1252</td>
+            <td headers="gra df plu">8.1</td>
+            <td headers="temp df plu">50</td>
+            <td headers="moon df plu">0</td>
+            <td headers="note df plu">&nbsp</td>
+        </tr>
+    </tbody>
+
+
+    </table>
+    
+</body>
+</html>
