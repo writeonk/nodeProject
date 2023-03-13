@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense app</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; background-color: blueviolet;"><strong>EXPENSE APP</strong></h1>
+    <table style="width:100%">
+        <tr>
+            <th><input name="login" type="button" value="Login" style="border: none;
+                cursor: pointer;
+                background-color: #6e37cc;
+                transition: background-color .3s ease;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                width: -moz-max-content;
+                width: max-content;
+                color: #fff;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin: 55px auto 0;"></th>
+            <th><input name="add" type="button" value="Add" style="border: none;
+                cursor: pointer;
+                background-color: #6e37cc;
+                transition: background-color .3s ease;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                width: -moz-max-content;
+                width: max-content;
+                color: #fff;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin: 55px auto 0;"></th>
+            <th><input name="delete" type="button" value="Delete" style="border: none;
+                cursor: pointer;
+                background-color: #6e37cc;
+                transition: background-color .3s ease;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                width: -moz-max-content;
+                width: max-content;
+                color: #fff;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin: 55px auto 0;"></th>
+            <th><input name="chart" type="button" value="Graph" style="border: none;
+                cursor: pointer;
+                background-color: #6e37cc;
+                transition: background-color .3s ease;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                width: -moz-max-content;
+                width: max-content;
+                color: #fff;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin: 55px auto 0;"></th>
+            <th><input name="logout" type="button" value="Logout" style="border: none;
+                cursor: pointer;
+                background-color: #6e37cc;
+                transition: background-color .3s ease;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                width: -moz-max-content;
+                width: max-content;
+                color: #fff;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin: 55px auto 0;"></th>
+        </tr>
+    </table>
+    <table style="width: 80%;">
+        <td>
+            <br>
+            <table style="border: 2px solid;">
+                <tr style="background-color: rgb(207, 159, 255)">
+                    <th style="text-align: center;" colspan="2"><strong>New Expense</strong></th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: right;">Item : </th>
+                    <td><input type="text" style="background-color: lightskyblue"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: right;">Amount : </th>
+                    <td><input type="text" style="background-color: lightskyblue"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: right;">Date : </th>
+                    <td><input type="date" style="background-color: lightskyblue"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" value="Submit" style="background-color: lightskyblue; font-weight: bold;">
+                        <input type="reset" value="Reset" style="background-color: lightskyblue;font-weight: bold;">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table style="border: 2px solid; width: 150%; border-collapse: collapse;">
+                <tr>
+                    <th colspan="6" style="background-color: rgb(207, 159, 255);">Expense List</th>
+                </tr>
+                <tr style="border: 2px solid;margin-top: auto; margin-bottom: auto;">
+                    <th style="border: 1px solid;">Index</th>
+                    <th style="border: 1px solid;">Item</th>
+                    <th style="border: 1px solid;">Amount</th>
+                    <th style="border: 1px solid;">Date</th>
+                </tr>
+                <tr style="border: 2px solid; margin-top: auto;margin-bottom: auto;">
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                </tr>
+                <tr style="border: 2px solid; margin-top: auto;margin-bottom: auto;">
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                </tr>
+                <tfoot>
+                    <th colspan="3">Total : </th>
+                </tfoot>
+            </table>
+        </td>
+    </table>
+</body>
+
+</html>
