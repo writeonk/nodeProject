@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: goldenrod;
+    font-size: 300%;
+    font-weight: bold;
+}
+h2,p{
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    font-weight: bold;
+    margin: 1%;
+}
+body{
+    background-color: green;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#msg{
+    font-style: italic;
+}
+#startbutton, #newcard{
+    background-color: goldenrod;
+    color: #016f32;
+    width: 15%;
+    font-size: 130%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 2%;
+}
+#newcard{
+    margin-top: 1%;
+    display: block;
+}
